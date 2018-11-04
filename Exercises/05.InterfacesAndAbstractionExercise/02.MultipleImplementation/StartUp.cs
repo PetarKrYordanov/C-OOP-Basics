@@ -1,7 +1,10 @@
 ﻿using System;
+namespace PersonInfo
+{
+
 public class StartUp
 {
-    static void Main(string[] args)
+   public static void Main(string[] args)
     {
         string name = Console.ReadLine();
         int age = int.Parse(Console.ReadLine());
@@ -14,4 +17,4 @@ public class StartUp
 
     }
 }
-
+}

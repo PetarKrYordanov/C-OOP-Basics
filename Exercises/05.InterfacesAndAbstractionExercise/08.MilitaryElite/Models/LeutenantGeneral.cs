@@ -4,7 +4,7 @@ using System.Text;
 
 public class LeutenantGeneral:Private,ILeutenantGeneral
 {
-    public IList<IPrivate>  Privates  { get; set; }
+    public IList<IPrivate> Privates { get; set; } = new List<IPrivate>();
     public LeutenantGeneral(int id,string firstName,string lastName,double salary,IList<IPrivate> privates)
         :base(id,firstName,lastName,salary)
     {

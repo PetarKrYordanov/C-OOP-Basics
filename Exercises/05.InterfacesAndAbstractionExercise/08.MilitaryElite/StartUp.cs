@@ -49,7 +49,7 @@ public class StartUp
                     case "Spy":
                         AddSpy(soldierArgs, idSoldiers);
                         break;
-                    case "LeutenantGeneral":
+                    case "LieutenantGeneral":
                         AddLeutenantGeneral(soldierArgs, idSoldiers);
                         break;
                     default:
